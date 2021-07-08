@@ -7,3 +7,4 @@ edition = "2018"
 
 [dependencies]
 egg-mode = { version = "0.15", features = ["rustls"], default-features = false }
+tokio = { version = "0.2", features = ["full"] }
